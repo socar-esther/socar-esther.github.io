@@ -8,13 +8,13 @@
 
 # Site settings
 # title appears in the header
-title: sibal
+title: esther demo pages
 # description and keywords for meta tags
-description: "Create an OER workshop website quick and easy!"
+description: "demo page for CVPR worshop"
 keywords: "workshops, OER, Open Education, websites, gh-pages, jekyll"
 
 # author settings for cc-by, appears in the footer
-author: hyunhee
+author: hyunhee chung
 pub_year: 2023
 github_username: socar-esther
 
