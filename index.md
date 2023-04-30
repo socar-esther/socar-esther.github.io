@@ -4,7 +4,7 @@ title: Home
 
 # CVPR Challenge: Visual Perception via Learning in an Open world 2023
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Sample Image (FM 관련 이미지로 바꾸기)" width="75%" %}
 
 
 <div class="toc" markdown="1">
@@ -14,19 +14,19 @@ title: Home
 
 
 <div class="toc" markdown="1">
-## Problem Statement
+## Problem Statement:
 *Add your ps here!*
 </div>
 
 
 <div class="toc" markdown="1">
-## Timeline
+## Important Dates:
 *Add your timeline here!*
 </div>
 
 
 <div class="toc" markdown="1">
-## Contact
+## Contact:
 *Add your contact point here!*
 </div>
 
