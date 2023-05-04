@@ -4,7 +4,7 @@ title: Home
 
 # Foundational Model for Visual Perception (FM4VP) Challenge
 
-CVPR Challenge: Visual Perception via Learning in an Open world 2023
+in accordance with VPLOW at CVPR 2023
 
 {% include figure.html img="car-images.png" alt="intro image here" caption="SOFAR (SOCAR: Socially-Obtained CAR image dataset" width="99%" %}
 
@@ -58,10 +58,7 @@ In a Support set (which can be used under the few-shot learning setting), we pro
 * Car in a rainy day
 * Car in a snowy day
 
-In the Test set, we provide total 19 classes of car's status, which concatenates classes at both Training and Support set. 
-
-
-
+In the Test set, we provide total 19 classes of car's status, which concatenates classes at both Training and Support set.
 
 </div>
 
