@@ -22,6 +22,10 @@ FM4VP Challenge is a challenge in accordance with Visual Perception via Learning
 
 
 <div class="toc" markdown="1">
+## Orgainizers
+</div>
+
+<div class="toc" markdown="1">
 ## Problem Statement: Zero/Few-shot Image Classification with Foundational Models
 
 
