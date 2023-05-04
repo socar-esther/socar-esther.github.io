@@ -23,6 +23,9 @@ FM4VP Challenge is a challenge in accordance with Visual Perception via Learning
 
 <div class="toc" markdown="1">
 ## Orgainizers
+
+![organizers](./images/organizers.png)
+
 </div>
 
 <div class="toc" markdown="1">
