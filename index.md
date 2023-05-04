@@ -6,7 +6,7 @@ title: Home
 
 CVPR Challenge: Visual Perception via Learning in an Open world 2023
 
-{% include figure.html img="car-images.png" alt="intro image here" caption="SOFAR (SOCAR: Socially-Obtained CAR image dataset" width="90%" %}
+{% include figure.html img="car-images.png" alt="intro image here" caption="SOFAR (SOCAR: Socially-Obtained CAR image dataset" width="99%" %}
 
 
 <div class="toc" markdown="1">
@@ -29,7 +29,15 @@ FM4VP Challenge is a challenge in accordance with Visual Perception via Learning
 
 <div class="toc" markdown="1">
 ## Important Dates:
-*Add your timeline here!*
+
+* May 10, 2023: Release of Training Set and Validation Set
+* May 15, 2023: Leaderboard Open
+* June 15, 2023: Challenge Deadline
+* June 18, 2023: VPLOW workshop
+
+Please Note that every deadlines are 23:59 in AoE timezone except for the VPLOW workshop.
+
+
 </div>
 
 
