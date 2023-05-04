@@ -10,12 +10,9 @@ in accordance with VPLOW at CVPR 2023
 
 
 <div class="toc" markdown="1">
-## Introduction: 
+## Introduction
 
 FM4VP Challenge is a challenge in accordance with Visual Perception via Learning in an Open World (VPLOW), held in CVPR 2023.
-
-* hi
-* hi2
 
 
 </div>
@@ -24,9 +21,11 @@ FM4VP Challenge is a challenge in accordance with Visual Perception via Learning
 <div class="toc" markdown="1">
 ## Orgainizers
 
-![organizers](./images/organizers.png)
+The organizers of FM4VP Challenge 2023 are associated with SOCAR. SOCAR is the largest car-sharing platform in Repbulic of Korea, providing a seamless mobility experience 
 
 </div>
+
+{% include figure.html img="organizers.png" alt="organizers"  width="99%" %}
 
 <div class="toc" markdown="1">
 ## Problem Statement: Zero/Few-shot Image Classification with Foundational Models
