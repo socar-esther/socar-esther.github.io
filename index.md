@@ -2,14 +2,22 @@
 title: Home
 ---
 
-# CVPR Challenge: Visual Perception via Learning in an Open world 2023
+# Foundational Model for Visual Perception (FM4VP) Challenge
 
-{% include figure.html img="car-images.png" alt="intro image here" caption="Sample Image (FM 관련 이미지로 바2꾸기)" width="75%" %}
+CVPR Challenge: Visual Perception via Learning in an Open world 2023
+
+{% include figure.html img="car-images.png" alt="intro image here" caption="SOFAR (SOCAR: Socially-Obtained CAR image dataset" width="90%" %}
 
 
 <div class="toc" markdown="1">
 ## Introduction: 
-*Add your intro here!*
+
+FM4VP Challenge is a challenge in accordance with Visual Perception via Learning in an Open World (VPLOW), held in CVPR 2023.
+
+* hi
+* hi2
+
+
 </div>
 
 

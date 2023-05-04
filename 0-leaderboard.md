@@ -3,10 +3,4 @@ title: Leaderboard
 nav: true
 ---
 
-# Rules
-
-
-# Metric
-
-
-# Leaderboard
+# To be updated soon
