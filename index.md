@@ -21,13 +21,11 @@ FM4VP Challenge is a challenge in accordance with Visual Perception via Learning
 <div class="toc" markdown="1">
 ## Orgainizers
 
-The FM4VP Challenge 2023 is hosted by SOCAR. SOCAR is the largest car-sharing platform in Repbulic of Korea, providing a seamless mobility experience from car, public transportations, parking lots, electric bike, and even autonomous vehicles. The organizers. 
+The FM4VP Challenge 2023 is hosted by SOCAR. SOCAR is the largest car-sharing platform in Repbulic of Korea, providing a seamless mobility experience from car, public transportations, parking lots, electric bike, and even autonomous vehicles. The organizers are applied research scientists at SOCAR, and currently researching/developing on AI products for the business impact in the real world.
 
-<img src="images/organizers.png">
+<img src="images/organizers-2.png">
 
 </div>
-
-{% include figure.html img="organizers.png" alt="organizers"  width="99%" %}
 
 <div class="toc" markdown="1">
 ## Problem Statement: Zero/Few-shot Image Classification with Foundational Models
