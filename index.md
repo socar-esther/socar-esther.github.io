@@ -4,7 +4,7 @@ title: Home
 
 # CVPR Challenge: Visual Perception via Learning in an Open world 2023
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Sample Image (FM 관련 이미지로 바2꾸기)" width="75%" %}
+{% include figure.html img="car-images.png" alt="intro image here" caption="Sample Image (FM 관련 이미지로 바2꾸기)" width="75%" %}
 
 
 <div class="toc" markdown="1">
