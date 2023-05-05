@@ -1,6 +1,6 @@
- 
+---
 title: Home
- 
+---
 
 # Foundational Model for Visual Perception (FM4VP) Challenge
 
