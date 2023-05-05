@@ -4,7 +4,7 @@ title: Home
 
 # Foundational Model for Visual Perception (FM4VP) Challenge
 
-in accordance with VPLOW at CVPR 2023
+in accordance with [VPLOW workshop](https://vplow.github.io/vplow_3rd.html) at CVPR 2023, Vancouver, Canada.
 
 {% include figure.html img="car-images.png" alt="intro image here" caption="SOFAR (SOCAR: Socially-Obtained CAR image dataset" width="99%" %}
 
