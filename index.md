@@ -12,7 +12,7 @@ in accordance with VPLOW at CVPR 2023
 <div class="toc" markdown="1">
 ## Introduction
 
-FM4VP Challenge is a challenge in accordance with Visual Perception via Learning in an Open World (VPLOW), held in CVPR 2023.
+This year, in accordance with Visual Perception via Learning in an Open World (VPLOW) workshop, we firstly organize Foundational Model for Visual Perception (FM4VP) challenge in CVPR 2023. This year's FM4VP challenge proposes a zero-shot/few-shot image classification problem leveraging FMs (i.e., CLIP, CoCa), to deal with novel samples in the real world. From an industry perspective, when novel samples occur in the business, we may retrieve and annotate every novel sample to re-train the model. However, it becomes too expensive if we perform this procedure whenever novel samples occur. To this end, utilizing the zero-shot/few-shot classification ability of recently-proposed foundational models can be a reasonable & presumable solution. Therefore, we hereby aim to empower candidate workshop participants to contemplate this challenge and let the students, researchers, and Machine Learning community access the industry-level dataset retrieved in the real world. 
 
 
 </div>
@@ -30,16 +30,15 @@ The FM4VP Challenge 2023 is hosted by SOCAR. SOCAR is the largest car-sharing pl
 <div class="toc" markdown="1">
 ## Problem Statement: Zero/Few-shot Image Classification with Foundational Models
 
-
-
+In this year's FM4VP challenge, we propose a business problem called car state classification in the open world. A car state classification aims to recognize a car's various statuses (i.e., exterior damage, dirt, wash, etc.) that occur in the real world, especially in SOCAR, the largest car-sharing platform in the Republic of Korea. The SOCAR requires its users to take pictures of cars before they drive, to monitor the car's status. Based on these images, SOCAR establishes an image classifier that identifies the car's various statuses and performs follow-up business actions for efficient business operation (i.e., washing the car if 'exterior dirt' is detected, sending the car if harsh damage is detected). The most challenging part of managing this classifier is dealing with novel samples occurring in the real world. For example, how can we identify novel patterns of dirty cars? How can we recognize novel damage patterns such as harsh car breakage or accident? To resolve these challenges, leveraging FM's effectiveness, we propose the real-world car image dataset and empower the participants to solve this problem. 
 </div>
 
 
 <div class="toc" markdown="1">
 ## Dataset
-In this challenge, we are releasing SOCAR (Socially-Obtained CAR) dataset, which includes 10K 
+In this challenge, we are releasing SOCAR (Socially-Obtained CAR) dataset, which includes ten-thousand car images retrieved from the real world car-sharing operation.
 
-The training set includes 13 classes, and each classes represents car's status where the car-sharing platform can easily understand.
+The training set includes 13 classes, each representing car's status that the car-sharing platform can easily understand.
 
 * Exterior Normal
 * Exterior Damage
@@ -55,23 +54,22 @@ The training set includes 13 classes, and each classes represents car's status w
 * Clean Sheet
 * Tire
 
-In a Support set (which can be used under the few-shot learning setting), we provide 6 additional classes which cannot be easily expected in the real world. Under the open-world setting, it becomes more challenging as the pattern of these classes are diverse, and cannot be expected a priori.
+In a Support set (which can be used under the few-shot learning setting), we provide 6 additional classes which cannot be easily expected in the real world. However, it becomes more challenging in the open-world setting as the pattern of these classes is diverse and cannot be expected a priori.
 
 * Exterior Dirt
 * Dirty Cupholder
 * Dirty Sheet
 * Dirty Seat
-* Car in a rainy day
-* Car in a snowy day
+* Car on a rainy day
+* Car on a snowy day
 
-In the Test set, we provide total 19 classes of car's status, which concatenates classes at both Training and Support set.
+In the Test set, we provide a total of 19 classes of car status, which concatenates classes at both the Training and Support set.
 
 </div>
 
 <div class="toc" markdown="1">
 ## Evaluation
-
-In this FM4VP Challenge 2023, we will measure Macro F1 score as an evaluation metric. Under the given Test set, participants submit prediction results at each corresponing test samples. The submission format (.csv) is included in the dataset. After the participants submit their file to the submission site, it will be uploaded to the leaderboard.
+In this FM4VP Challenge 2023, we will measure **Macro F1-Score** as an evaluation metric. Under the given Test set, participants submit prediction results at each corresponing test samples. The submission format (.csv) is included in the dataset. After the participants submit their file to the submission site, it will be uploaded to the leaderboard.
 
 </div>
 
