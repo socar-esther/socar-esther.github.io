@@ -12,16 +12,16 @@ in accordance with [VPLOW workshop](https://vplow.github.io/vplow_3rd.html) at C
 <!-- <div class="toc" markdown="1"> -->
 ## Introduction
 
-This year, in accordance with Visual Perception via Learning in an Open World (VPLOW) workshop, we firstly organize Foundational Model without Descriptive Caption (FMDC) challenge in CVPR 2023. This year's FMDC challenge proposes a zero-shot/few-shot image classification problem leveraging FMs (i.e., CLIP, CoCa), to deal with novel samples in the real world. From an industry perspective, when novel samples occur in the business, we may retrieve and annotate every novel sample to re-train the model. However, it becomes too expensive if we perform this procedure whenever novel samples occur. To this end, utilizing the zero-shot/few-shot classification ability of recently-proposed foundational models can be a reasonable & presumable solution. Therefore, we hereby aim to empower candidate workshop participants to contemplate this challenge and let the students, researchers, and Machine Learning community access the industry-level dataset retrieved in the real world. 
+This year, in accordance with Visual Perception via Learning in an Open World (VPLOW) workshop, we are organizing Foundational Model without Descriptive Caption (FMDC) challenge in CVPR 2023. This year's FMDC challenge proposes a zero-shot/few-shot image classification problem leveraging FMs (i.e., CLIP, CoCa), to deal with novel samples in the real world. From an industry perspective, when novel samples occur in the business, we may retrieve and annotate every novel sample to re-train the model. However, it becomes too expensive if we perform this procedure whenever novel samples occur. To this end, utilizing the zero-shot/few-shot classification ability of recently-proposed foundational models can be a reasonable & presumable solution. Therefore, we hereby aim to empower candidate workshop participants to contemplate this challenge and let the students, researchers, and Machine Learning community access the industry-level dataset retrieved in the real world. 
 
  
 <!-- </div> -->
 
 
 <!-- <div class="toc" markdown="1"> -->
-## Orgainizers
+## Organizers
 
-The  FMDC Challenge 2023 is hosted by SOCAR. SOCAR is the largest car-sharing platform in Repbulic of Korea, providing a seamless mobility experience from car, public transportations, parking lots, electric bike, and even autonomous vehicles. The organizers are applied research scientists at SOCAR, and currently researching/developing on AI products for the business impact in the real world.
+The FMDC Challenge 2023 is hosted by SOCAR. SOCAR is the largest car-sharing platform in the Republic of Korea, providing a seamless mobility experience from cars, public transportation, parking lots, electric bike, and even autonomous vehicles. The organizers are Applied Research Scientists at SOCAR, and currently researching/developing AI products for business impact.
 
 <img src="images/organizers-3.png">
 
@@ -31,7 +31,7 @@ The  FMDC Challenge 2023 is hosted by SOCAR. SOCAR is the largest car-sharing pl
 <!-- <div class="toc" markdown="1"> -->
 ## Problem Statement: Zero/Few-shot Image Classification with Foundational Models
 
-In this year's FMDC challenge, we propose a business problem called car state classification in the open world. A car state classification aims to recognize a car's various statuses (i.e., exterior damage, dirt, wash, etc.) that occur in the real world, especially in SOCAR, the largest car-sharing platform in the Republic of Korea. The SOCAR requires its users to take pictures of cars before they drive, to monitor the car's status. Based on these images, SOCAR establishes an image classifier that identifies the car's various statuses and performs follow-up business actions for efficient business operation (i.e., washing the car if 'exterior dirt' is detected, sending the car if harsh damage is detected). The most challenging part of managing this classifier is dealing with novel samples occurring in the real world. For example, how can we identify novel patterns of dirty cars? How can we recognize novel damage patterns such as harsh car breakage or accident? To resolve these challenges, leveraging FM's effectiveness, we propose the real-world car image dataset and empower the participants to solve this problem. When we use (i.e., fine-tune) FMs in industry, one of the challenging hurdles is the lack of descriptive caption. While web-crawled large-scale datasets such as [LAION-5B]('https://laion.ai/blog/laion-5b/') have affluent captions on each image, real-world images usually have class-level or even weakly-labeled annotations. Then, how can we effectively fine-tune or transfer the inductive bias at the FMs into the particular domain? This will be a primary starting point for your journey to this challenge.
+In this year's FMDC challenge, we propose a business problem called **car state classification** in the open world. A car state classification aims to recognize a car's various states (i.e., exterior damage, dirt, wash, etc.) that occur in the real world, especially at SOCAR, the largest car-sharing platform in the Republic of Korea. The SOCAR requires its users to take pictures of cars before they drive, in order to monitor the car's state. Based on these images, SOCAR establishes an image classifier that identifies the car's various states and performs follow-up business actions for efficient business operation (i.e., washing the car if 'exterior dirt' is detected, sending the car for repair if harsh damage is detected). The most challenging part of managing this classifier is dealing with novel samples occurring in the real world. For example, how can we identify novel patterns of dirty cars? How can we recognize novel damage patterns such as harsh car breakage or accident? To resolve these challenges, we propose the real-world car image dataset and encourage the participants to solve this problem. When we use (i.e., fine-tune) FMs in industry, one of the challenging hurdles is the lack of descriptive caption. While web-crawled large-scale datasets such as [LAION-5B]('https://laion.ai/blog/laion-5b/') have detailed captions on each image, real-world images usually have class-level or even weakly-labeled annotations. Then, what is an effective fine-tuning/transfer learning strategy for adapting FMs to the particular domain? This will be a good starting point for your journey to this challenge.
 <!-- </div> -->
 
 
@@ -39,7 +39,7 @@ In this year's FMDC challenge, we propose a business problem called car state cl
 <!-- <div class="toc" markdown="1"> -->
 ## Dataset
 
-In this challenge, we are releasing SOCAR (Socially-Obtained CAR) dataset, which includes ten-thousand car images retrieved from the real world car-sharing operation. For a detailed description of the SOCAR dataset, please refer to the paper [SOCAR: Socially-Obtained CAR Dataset for Image Recognition in the Wild]('https://openaccess.thecvf.com/content/WACV2023W/DNOW/papers/Seo_SOCAR_Socially-Obtained_CAR_Dataset_for_Image_Recognition_in_the_Wild_WACVW_2023_paper.pdf')
+In this challenge, we are releasing SOCAR (Socially-Obtained CAR) dataset, which includes ten-thousand car images retrieved from our  car-sharing operation. For a detailed description of the SOCAR dataset, please refer to the paper [SOCAR: Socially-Obtained CAR Dataset for Image Recognition in the Wild]('https://openaccess.thecvf.com/content/WACV2023W/DNOW/papers/Seo_SOCAR_Socially-Obtained_CAR_Dataset_for_Image_Recognition_in_the_Wild_WACVW_2023_paper.pdf')
 
 The **Training Set** includes 13 classes, each representing car's status that the car-sharing platform can easily understand.
 
@@ -73,7 +73,7 @@ In the **Test Set**, we provide a total of 19 classes of car status, which conca
  
 <!-- <div class="toc" markdown="1"> -->
 ## Evaluation
-In this  FMDC Challenge 2023, we will measure **Macro F1-Score** as an evaluation metric. Under the given Test set, participants submit prediction results at each corresponing test samples. The submission format (.csv) is included in the dataset. After the participants submit their file to the submission site, it will be uploaded to the leaderboard.
+We will measure **Macro F1-Score** as an evaluation metric. For the given Test set, participants submit prediction results at corresponing test samples. The submission format (.csv) is included in the dataset. After the participants submit their file to the submission site, the results will be uploaded to the leaderboard.
 
 <!-- </div> -->
  
@@ -85,12 +85,12 @@ In this  FMDC Challenge 2023, we will measure **Macro F1-Score** as an evaluatio
 * June 15, 2023: Challenge Deadline
 * June 18, 2023: VPLOW workshop
 
-Please Note that every deadlines are 23:59 in AoE timezone except for the VPLOW workshop date.
+Please Note that each deadline is 23:59 in the AoE timezone except for the VPLOW workshop date.
 
 <!-- </div> -->
 
 ## Presentation
-To be updated soon! (updated in May 5, 2023)
+To be updated soon! (updated on May 5, 2023)
 
  
 <!-- <div class="toc" markdown="1"> -->
