@@ -9,14 +9,11 @@ in accordance with [VPLOW workshop](https://vplow.github.io/vplow_3rd.html) at C
 {% include figure.html img="car-images.png" alt="intro image here" caption="SOFAR (SOCAR: Socially-Obtained CAR image dataset" width="99%" %}
  
 
-<!-- <div class="toc" markdown="1"> -->
 ## Introduction
 
 This year, in accordance with Visual Perception via Learning in an Open World (VPLOW) workshop, we are organizing Foundational Model without Descriptive Caption (FMDC) challenge in CVPR 2023. This year's FMDC challenge proposes a zero-shot/few-shot image classification problem leveraging FMs (i.e., CLIP, CoCa), to deal with novel samples in the real world. From an industry perspective, when novel samples occur in the business, we may retrieve and annotate every novel sample to re-train the model. However, it becomes too expensive if we perform this procedure whenever novel samples occur. To this end, utilizing the zero-shot/few-shot classification ability of recently-proposed foundational models can be a reasonable & presumable solution. Therefore, we hereby aim to empower candidate workshop participants to contemplate this challenge and let the students, researchers, and Machine Learning community access the industry-level dataset retrieved in the real world. 
 
  
-<!-- </div> -->
-
 
 <!-- <div class="toc" markdown="1"> -->
 ## Organizers
@@ -79,28 +76,29 @@ We will measure **Macro F1-Score** as an evaluation metric. For the given Test s
  
 <!-- <div class="toc" markdown="1"> -->
 ## Important Dates:
-
 * May 13, 2023: Dataset Release and Challenge Start
 * May 19, 2023: Leaderboard Open
 * June 15, 2023: Challenge Deadline
 * June 18, 2023: VPLOW workshop
 
-Please Note that each deadline is 23:59 in the AoE timezone except for the VPLOW workshop date.
+Please Note that each deadline is 23:59 in the PST timezone.
 
 <!-- </div> -->
 
 ## Presentation
-To be updated soon! (updated on May 5, 2023)
+To be updated soon!
 
  
 <!-- <div class="toc" markdown="1"> -->
 ## Contact:
 
-* Kyung Ho Park (kp@socar.kr)
-* Hyunhee Chung (esther@socar.kr)
-* Taewon Seo (cillian@socar.kr)
-* Sanghuk Lee (leonard@socar.kr)
-* Hyeonsoo Kim (lucci@socar.kr)
+* Kyung Ho Park (kp[at]socar[dot]kr)
+* Hyunhee Chung (esther[at]socar[dot]kr)
+* Taewon Seo (cillian[at]socar[dot]kr)
+* Sanghuk Lee (leonard[at]socar[dot]kr)
+* Hyeonsoo Kim (lucci[at]socar[dot]kr)
+* Pulkit Kumar (pulkit[at]umd[dot]edu)
+* Anubhav (anubhav[at]umd[dot]edu)
 
 <!-- </div> -->
 
