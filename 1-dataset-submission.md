@@ -8,21 +8,21 @@ Please read the [Form](https://forms.gle/DMGPiHZhNHYzCxhP8) carefully and fill i
 
 ```
 Train 
-+-- 01_outer_normal
-    +-- train_01_outer_normal_0.png
-    +-- ...
-+-- ...
+ㄴ 01_outer_normal
+    ㄴ train_01_outer_normal_0.png
+    ㄴ ...
+ㄴ ...
 
 Validation
-+-- 01_outer_normal
-    +-- validation_01_outer_normal_0.png
-    +--...
-+-- ..
+ㄴ 01_outer_normal
+    ㄴ validation_01_outer_normal_0.png
+    ㄴ ...
+ㄴ ..
 
 Test
-+-- 0.png
-+-- 1.png
-+-- ...
+ㄴ 0.png
+ㄴ 1.png
+ㄴ ...
 ```
 
 
