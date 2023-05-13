@@ -10,7 +10,7 @@
 # title appears in the header
 title: FMDC
 # description and keywords for meta tags
-description: "demo page for CVPR worshop"
+description: "Foundational Model without Descriptive Caption (FMDC) Challenge"
 keywords: "workshops, OER, Open Education, websites, gh-pages, jekyll"
 
 # author settings for cc-by, appears in the footer
