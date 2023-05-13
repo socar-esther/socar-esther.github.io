@@ -90,8 +90,7 @@ To be updated soon!
 
  
 <!-- <div class="toc" markdown="1"> -->
-## Contact:
-
+## Contact
 * Kyung Ho Park (kp[at]socar[dot]kr)
 * Hyunhee Chung (esther[at]socar[dot]kr)
 * Taewon Seo (cillian[at]socar[dot]kr)
@@ -99,6 +98,10 @@ To be updated soon!
 * Hyeonsoo Kim (lucci[at]socar[dot]kr)
 * Pulkit Kumar (pulkit[at]umd[dot]edu)
 * Anubhav (anubhav[at]umd[dot]edu)
+
+## Have a look at another Challenge
+The VLPOW workshop also hosts Object Discovery Challenge [(OBJ-DISC)](https://obj-disc.github.io/). So please have a look and join it if you are interested! 
+
 
 <!-- </div> -->
 
