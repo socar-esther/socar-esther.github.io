@@ -20,7 +20,7 @@ This year, in accordance with Visual Perception via Learning in an Open World (V
 
 The FMDC Challenge 2023 is hosted by SOCAR. SOCAR is the largest car-sharing platform in the Republic of Korea, providing a seamless mobility experience from cars, public transportation, parking lots, electric bike, and even autonomous vehicles. The organizers are Applied Research Scientists at SOCAR, and currently researching/developing AI products for business impact.
 
-<img src="images/organizers-3.png">
+<img src="images/organizers-4.png">
 
 
 <!-- </div> -->
@@ -96,8 +96,6 @@ To be updated soon!
 * Taewon Seo (cillian[at]socar[dot]kr)
 * Sanghuk Lee (leonard[at]socar[dot]kr)
 * Hyeonsoo Kim (lucci[at]socar[dot]kr)
-* Pulkit Kumar (pulkit[at]umd[dot]edu)
-* Anubhav (anubhav[at]umd[dot]edu)
 
 ## Have a look at another Challenge
 The VLPOW workshop also hosts Object Discovery Challenge [(OBJ-DISC)](https://obj-disc.github.io/). So please have a look and join it if you are interested! 
