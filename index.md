@@ -18,7 +18,7 @@ This year, in accordance with Visual Perception via Learning in an Open World (V
 <!-- <div class="toc" markdown="1"> -->
 ## Organizers
 
-The FMDC Challenge 2023 is hosted by SOCAR. SOCAR is the largest car-sharing platform in the Republic of Korea, providing a seamless mobility experience from cars, public transportation, parking lots, electric bike, and even autonomous vehicles. The organizers are Applied Research Scientists at SOCAR, and currently researching/developing AI products for business impact.
+The FMDC Challenge 2023 is hosted by SOCAR and University of Maryland. SOCAR is the largest car-sharing platform in the Republic of Korea, providing a seamless mobility experience from cars, public transportation, parking lots, electric bike, and even autonomous vehicles. The organizers are Applied Research Scientists at SOCAR, and currently researching/developing AI products for business impact.
 
 <img src="images/organizers-4.png">
 
